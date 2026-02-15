@@ -52,6 +52,23 @@ Data Source: Marketing Campaign Dataset (CSV/Excel)
 
 Analysis Focus: Marketing Performance, Cost Efficiency, Brand Impact Analysis.
 
+
+## ⚙️ Technical Implementation1. 
+
+1. Data Cleaning & Preparation
+
+Before visualization, the dataset underwent a cleaning process to ensure accuracy:Handling Nulls: Missing values in the Cost and Click columns were handled to avoid skewing the average calculations.Data Formatting: Ensured that date fields were correctly parsed to allow for the January - May time-series analysis.Normalization: Calculated metrics were checked against raw data to ensure the consistency of $518,696$ total clicks and $912,981$ total ad recalls.
+
+2. Tableau Calculated FieldsTo derive deeper insights, the following formulas were implemented within Tableau:
+
+<img width="516" height="275" alt="Screenshot 2026-02-15 at 19 41 44" src="https://github.com/user-attachments/assets/9449442a-d472-4ae4-be45-75947d8223d4" />
+
+3. Dashboard Design Logic
+   
+Color Palette: Used a professional slate-teal and blue theme to distinguish between engagement metrics (CTR/CPC) and brand awareness metrics (Recall/CPM).
+
+Reference Lines: Added constant lines in the trend charts to represent the Average Benchmark, allowing for immediate identification of overperforming or underperforming days.
+
 ## 📈 Strategic Recommendations
 Budget Optimization: Increase allocation for Type E if the primary goal is Brand Awareness, as it delivers the highest memory retention rate.
 
