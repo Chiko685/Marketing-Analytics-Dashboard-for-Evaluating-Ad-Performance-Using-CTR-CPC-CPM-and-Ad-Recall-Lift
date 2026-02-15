@@ -1,5 +1,7 @@
 # Marketing Analytics Dashboard: Evaluating Ad Performance
 
+<img width="921" height="504" alt="Screenshot 2026-02-15 at 19 54 39" src="https://github.com/user-attachments/assets/720c51d0-c38f-4304-a6c0-edaba49fc519" />
+
 
 <img width="1535" height="1151" alt="Dashboard 1" src="https://github.com/user-attachments/assets/4bffe4e6-cc74-4a1b-9e8e-298172baddf6" />
 
@@ -14,43 +16,48 @@ View Dashboard on Tableau Public: [https://public.tableau.com/views/MarketingAna
 ## 📊 Key Metrics & Glossary
 To better understand the analysis, here are the definitions of the metrics used:
 
-CTR (Click-Through Rate): The percentage of people who clicked on the ad after seeing it. It measures audience engagement.
+1. CTR (Click-Through Rate): The percentage of people who clicked on the ad after seeing it. It measures audience engagement.
 
-CPC (Cost Per Click): The average cost paid for each individual click on the advertisement.
+2. CPC (Cost Per Click): The average cost paid for each individual click on the advertisement.
 
-CPM (Cost Per Mille): The cost paid for every 1,000 impressions (views) of the advertisement.
+3. CPM (Cost Per Mille): The cost paid for every 1,000 impressions (views) of the advertisement.
 
-Ad Recall Lift: The estimated number of people likely to remember the ad if asked within 2 hours.
+4. Ad Recall Lift: The estimated number of people likely to remember the ad if asked within 2 hours.
 
-## 🔍 Key Insights from Dashboard
-Based on the data visualization provided in the dashboard:
+## 🔍 Key Insights & Analysis
+Based on the marketing dashboard analysis, here are the key findings regarding campaign performance across different ad types:
 
-Click Performance (CTR):
+### 1. High-Level Performance Summary
+Total Reach: The campaign generated a total of 518,696 clicks and achieved 912,981 total ad recalls over a 4-month period.
 
-Type A is the most engaging ad type with the highest CTR of 4.97%.
+Total Investment: The total marketing cost across the four ad types was $551,788.00.
 
-Type D has the lowest CTR (2.76%), suggesting that the creative content or placement did not resonate well with the target audience.
+### 2. Engagement & Cost Efficiency (Awareness Stage)
+Top Performer (CTR): Type A achieved the highest average Click-Through Rate (CTR) at 4.97%, indicating high creative resonance with the audience.
 
-Cost Efficiency (CPC & CPM):
+Most Cost-Effective: Type A and B share the lowest Cost Per Click (CPC) at $1.00, making them efficient drivers of traffic.
 
-Type A has the highest CPM ($47.56), meaning it is the most expensive ad type to display.
+Awareness Strategy: While both Type A and B show strong performance at the awareness stage, only Type B maintains a sustainable cost-to-performance ratio in terms of CPM (Cost Per Mille).
 
-Type B & Type A offer the best click efficiency with the lowest CPC at $1.00.
+### 3. Brand Impact & Retention (Consideration Stage)
+Top Performer (Ad Recall): Type E leads significantly in brand memory with an average Ad Recall Lift of 14.94%.
 
-Brand Awareness Impact (Ad Recall Lift):
+Target Alignment: Ads Type D, E, and B were identified as meeting the target marketing cost thresholds.
 
-Type E is exceptionally strong in building brand memory, achieving an Ad Recall Lift of 14.94%, significantly outperforming other types.
+Underperformer: Although Type D has the lowest CPM ($38.59), it also yields the lowest Ad Recall Lift (5.26%), suggesting that low cost does not translate to high brand impact in this case.
 
-Trends (January - May):
+## 🚀 Strategic Recommendations (Action Plan)
+Based on the data, the following specific actions are recommended to optimize future campaign ROI:
 
-Both Total Click Trend and Total Ad Recall Trend show consistent daily fluctuations around the benchmark, with notable performance spikes in February and April.
+### ✅ Maintain & Scale
+Retain Ad Type E: This type should be prioritized for the Consideration Stage because it aligns with cost targets and demonstrates superior performance in brand recall.
 
-## 🛠️ Tools & Technology
-Data Visualization: Tableau Desktop
+Retain Ad Type B: Continue utilizing Type B to maintain consistent performance at the Awareness Stage while keeping costs optimized.
 
-Data Source: Marketing Campaign Dataset (CSV/Excel)
+### ❌ Discontinue or Re-evaluate
+Terminate Ad Type A & C: These ads should be discontinued due to cost misalignment (high CPM for Type A and high CPC for Type C relative to performance).
 
-Analysis Focus: Marketing Performance, Cost Efficiency, Brand Impact Analysis.
+Terminate Ad Type D: Despite its low cost, this type should be stopped as it delivers the lowest performance in Ad Recall Lift, offering poor value for brand building.
 
 
 ## ⚙️ Technical Implementation1. 
@@ -69,9 +76,4 @@ Color Palette: Used a professional slate-teal and blue theme to distinguish betw
 
 Reference Lines: Added constant lines in the trend charts to represent the Average Benchmark, allowing for immediate identification of overperforming or underperforming days.
 
-## 📈 Strategic Recommendations
-Budget Optimization: Increase allocation for Type E if the primary goal is Brand Awareness, as it delivers the highest memory retention rate.
 
-Creative Evaluation: Conduct A/B testing on Type D to improve its low CTR performance.
-
-Cost Balancing: While Type A drives great engagement, its high CPM should be monitored to ensure the overall ROI (Return on Investment) remains sustainable.
