@@ -68,7 +68,9 @@ Terminate Ad Type D: Despite its low cost, this type should be stopped as it del
 
 1. Data Cleaning & Preparation
 
-Before visualization, the dataset underwent a cleaning process to ensure accuracy:Handling Nulls: Missing values in the Cost and Click columns were handled to avoid skewing the average calculations.Data Formatting: Ensured that date fields were correctly parsed to allow for the January - May time-series analysis.Normalization: Calculated metrics were checked against raw data to ensure the consistency of $518,696$ total clicks and $912,981$ total ad recalls.
+Before visualization, the dataset underwent a cleaning process to ensure accuracy:
+Handling Nulls: Missing values in the Cost and Click columns were handled to avoid skewing the average calculations.Data Formatting: Ensured that date fields were correctly parsed to allow for the January - May time-series analysis.
+Normalization: Calculated metrics were checked against raw data to ensure the consistency of $518,696$ total clicks and $912,981$ total ad recalls.
 
 2. Tableau Calculated FieldsTo derive deeper insights, the following formulas were implemented within Tableau:
 
@@ -79,5 +81,6 @@ Before visualization, the dataset underwent a cleaning process to ensure accurac
 Color Palette: Used a professional slate-teal and blue theme to distinguish between engagement metrics (CTR/CPC) and brand awareness metrics (Recall/CPM).
 
 Reference Lines: Added constant lines in the trend charts to represent the Average Benchmark, allowing for immediate identification of overperforming or underperforming days.
+
 
 
