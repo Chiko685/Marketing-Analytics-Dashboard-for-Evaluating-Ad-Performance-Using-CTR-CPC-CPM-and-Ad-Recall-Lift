@@ -5,13 +5,17 @@
 
 <img width="1535" height="1151" alt="Dashboard 1" src="https://github.com/user-attachments/assets/4bffe4e6-cc74-4a1b-9e8e-298172baddf6" />
 
-
-
-## 📌 Project Overview
-
-This project focuses on analyzing and evaluating the effectiveness of digital marketing campaigns across various ad types. By utilizing key performance indicators (KPIs) such as CTR, CPC, CPM, and Ad Recall Lift, this dashboard provides deep insights into cost efficiency and the brand awareness impact of different advertising strategies.
-
 View Dashboard on Tableau Public: [https://public.tableau.com/views/MarketingAnalyticsDashboard_17711404071840/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+
+## 📖 Project Background
+Business Problem (2016): The company experienced a decline in brand awareness and traffic generation, resulting in stagnant sales conversions.
+
+The Campaign (Jan - Apr 2017): Various ad types were launched to boost awareness and traffic. The company established a strict cost constraint: the Cost Per Mille (CPM) must not exceed $40.
+
+The Objective: Develop a Marketing Analytics dashboard to identify top-performing ads in the Awareness and Consideration stages.
+
+Goal: Provide data-driven recommendations on which ads to maintain or discontinue for May 2017 and beyond, while strictly adhering to cost limitations.
+
 
 ## 📊 Key Metrics & Glossary
 To better understand the analysis, here are the definitions of the metrics used:
@@ -28,23 +32,23 @@ To better understand the analysis, here are the definitions of the metrics used:
 Based on the marketing dashboard analysis, here are the key findings regarding campaign performance across different ad types:
 
 ### 1. High-Level Performance Summary
-Total Reach: The campaign generated a total of 518,696 clicks and achieved 912,981 total ad recalls over a 4-month period.
+   * Total Reach: The campaign generated a total of 518,696 clicks and achieved 912,981 total ad recalls over a 4-month period.
 
-Total Investment: The total marketing cost across the four ad types was $551,788.00.
+   * Total Investment: The total marketing cost across the four ad types was $551,788.00.
 
 ### 2. Engagement & Cost Efficiency (Awareness Stage)
-Top Performer (CTR): Type A achieved the highest average Click-Through Rate (CTR) at 4.97%, indicating high creative resonance with the audience.
+   * Top Performer (CTR): Type A achieved the highest average Click-Through Rate (CTR) at 4.97%, indicating high creative resonance with the audience.
 
-Most Cost-Effective: Type A and B share the lowest Cost Per Click (CPC) at $1.00, making them efficient drivers of traffic.
+   * Most Cost-Effective: Type A and B share the lowest Cost Per Click (CPC) at $1.00, making them efficient drivers of traffic.
 
-Awareness Strategy: While both Type A and B show strong performance at the awareness stage, only Type B maintains a sustainable cost-to-performance ratio in terms of CPM (Cost Per Mille).
+   * Awareness Strategy: While both Type A and B show strong performance at the awareness stage, only Type B maintains a sustainable cost-to-performance ratio in terms of CPM (Cost Per Mille).
 
 ### 3. Brand Impact & Retention (Consideration Stage)
-Top Performer (Ad Recall): Type E leads significantly in brand memory with an average Ad Recall Lift of 14.94%.
+   * Top Performer (Ad Recall): Type E leads significantly in brand memory with an average Ad Recall Lift of 14.94%.
 
-Target Alignment: Ads Type D, E, and B were identified as meeting the target marketing cost thresholds.
+   * Target Alignment: Ads Type D, E, and B were identified as meeting the target marketing cost thresholds.
 
-Underperformer: Although Type D has the lowest CPM ($38.59), it also yields the lowest Ad Recall Lift (5.26%), suggesting that low cost does not translate to high brand impact in this case.
+   * Underperformer: Although Type D has the lowest CPM ($38.59), it also yields the lowest Ad Recall Lift (5.26%), suggesting that low cost does not translate to high brand impact in this case.
 
 ## 🚀 Strategic Recommendations (Action Plan)
 Based on the data, the following specific actions are recommended to optimize future campaign ROI:
